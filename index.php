@@ -1,11 +1,16 @@
 <?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
-	exit;
+include('menu.php');
 ?>
-Something is wrong with the XAMPP installation :-(
+<html>
+<head>
+<meta charset="utf-8">
+<title>Base de Datos de Virus Informaticos</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="group">
+  <h2><em>Base de Datos de Virus Informaticos</em></h2>
+</body>
+</html>
+
