@@ -12,17 +12,17 @@
   <form action="registro.php" method="POST">
   <h2><em>Ingresar Nuevo Registro</em></h2> 
 
-      <label for="nombre">Nombre <span><em>(requerido)</em></span></label>
-      <input type="text" name="nombre" class="form-input" required/>   
+      <label for="Nombre">Nombre <span><em>(requerido)</em></span></label>
+      <input type="text" name="Nombre" class="form-input" required/>   
       
-      <label for="apellido">Caracteristicas <span><em>(requerido)</em></span></label>
-      <input type="text" name="Caracteristicas" class="form-input" required/>             
+      <label for="Descripcion">Descripcion <span><em>(requerido)</em></span></label>
+      <input type="Descripcion" name="Descripcion" class="form-input" required/>             
       
- <label for="apellido">Limpieza <span><em>(requerido)</em></span></label>
-      <input type="text" name="Limpieza" class="form-input" required/> 
+ <label for="Forma_de_Limpieza">Forma de Limpieza <span><em>(requerido)</em></span></label>
+      <input type="text" name="Forma_de_Limpieza" class="form-input" required/> 
      <center> <input class="form-btn" name="submit" type="submit" value="Enviar" /></center>
     </p>
-	</form>
+  </form>
 </div>
 </body>
 </html>
