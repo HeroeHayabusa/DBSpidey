@@ -10,7 +10,13 @@ Dependencias y Software Se necesita *XAMPP *MYSQL *Editor de texto
 
 Modulos :computer: :
 
-Login, Alta de usuario, Baja de usuario, Modificación de usuario, Eliminación de Usuario, Entrada al sistema o a ciertas partes por medio de privilegios de admin, Exportacion en formato .csv
+*Login
+*Alta de usuario
+*Baja de usuario
+*Modificación de usuario
+*Eliminación de Usuario
+*Entrada al sistema o a ciertas partes por medio de privilegios de admin 
+*Exportacion en formato .csv
 
 Instalacion:
 
@@ -18,6 +24,6 @@ Instalacion:
 
 Para instalar XAMPP: Primero se descarga .run de xampp chmod + x xampp-linux-x64-7.1.10-0-installer.ru Se sigue los pasos de instalacion sudo /opt/lampp/lampp start
 
-Ejemplo :
+Ejemplo:
 
-Correr XAMPP, guardar los archivos en la carpeta opt/lampp/htdocs e ingresar la siguiente liga localhost/BDSpidey
+Correr XAMPP, guardar los archivos en la carpeta opt/lampp/htdocs e ingresar la siguiente liga localhost/BDSpidey :rose:
