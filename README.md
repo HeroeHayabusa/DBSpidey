@@ -10,13 +10,13 @@ Dependencias y Software Se necesita *XAMPP *MYSQL *Editor de texto
 
 Modulos :computer: :
 
-*Login
-*Alta de usuario
-*Baja de usuario
-*Modificación de usuario
-*Eliminación de Usuario
-*Entrada al sistema o a ciertas partes por medio de privilegios de admin 
-*Exportacion en formato .csv
+-Login
+-Alta de usuario
+-Baja de usuario
+-Modificación de usuario
+-Eliminación de Usuario
+-Entrada al sistema o a ciertas partes por medio de privilegios de admin 
+-Exportacion en formato .csv
 
 Instalacion:
 
