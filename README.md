@@ -26,4 +26,4 @@ Para instalar XAMPP: Primero se descarga .run de xampp chmod + x xampp-linux-x64
 
 Ejemplo:
 
-Correr XAMPP, guardar los archivos en la carpeta opt/lampp/htdocs e ingresar la siguiente liga localhost/BDSpidey :rose:
+Correr XAMPP, guardar los archivos en la carpeta opt/lampp/htdocs, crear las bases de datos id y usuarios e ingresar la siguiente liga localhost/BDSpidey :rose:
