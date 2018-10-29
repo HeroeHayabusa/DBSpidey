@@ -1,0 +1,36 @@
+
+<?php
+	session_start();
+	if($_SESSION['rol'] != 1)
+	{
+		header("location: ./");
+	}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<?php include "includes/scripts.php"; ?>
+	<title>Importacion CSV</title>
+</head>
+<body>
+	<?php include "includes/header.php"; ?>
+	<section id="container">
+		
+		<div class="form_register">
+			<h1>Importacion CSV</h1>
+			<hr>
+			<div class="alert"><?php echo isset($alert) ? $alert : ''; ?></div>
+			<form action='accion.php' method='post' enctype="multipart/form-data">
+   <input type='file' name='sel_file' size='20'>
+   <input type='submit' name='submit' value='Enviar'>
+			<form id="subida">
+</form>
+
+
+		</div>
+
+	</section>
+	<?php include "includes/footer.php"; ?>
+</body>
+</html>
